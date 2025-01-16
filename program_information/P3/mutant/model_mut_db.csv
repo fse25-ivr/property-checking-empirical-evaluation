@@ -1,0 +1,230 @@
+,,,Before Mutation,,,,,After Mutation
+Mutant Filename,Mutation Operator,Start Line#,Start Col#,End Line#,End Col#,Target Token,Start Line#,Start Col#,End Line#,End Col#,Mutated Token,Extra Info
+model.MUT1.c,SSDL,57,3,63,18,printf("%s %s %d %s %s %d %d %d %d %d %d\n",57,3,57,4,;,,model_step
+model.MUT2.c,SSDL,69,3,71,4,if (rtDW.temporalCounter_i1 < ((uint32_T)(4294967295U))) {,69,3,69,4,;,,model_step
+model.MUT3.c,ORRN,69,31,69,32,<,69,31,69,33,!=,<!=,model_step
+model.MUT4.c,ORRN,69,31,69,32,<,69,31,69,33,<=,<<=,model_step
+model.MUT5.c,ORRN,69,31,69,32,<,69,31,69,33,==,<==,model_step
+model.MUT6.c,ORRN,69,31,69,32,<,69,31,69,32,>,<>,model_step
+model.MUT7.c,ORRN,69,31,69,32,<,69,31,69,33,>=,<>=,model_step
+model.MUT8.c,SSDL,70,5,70,31,rtDW.temporalCounter_i1++,70,5,70,6,;,,model_step
+model.MUT9.c,SSDL,73,3,129,4,if (rtDW.is_active_c3_sf_traffic_light_l == 0U) {,73,3,73,4,;,,model_step
+model.MUT10.c,ORRN,73,44,73,46,==,73,44,73,46,!=,==!=,model_step
+model.MUT11.c,ORRN,73,44,73,46,==,73,44,73,45,<,==<,model_step
+model.MUT12.c,ORRN,73,44,73,46,==,73,44,73,46,<=,==<=,model_step
+model.MUT13.c,ORRN,73,44,73,46,==,73,44,73,45,>,==>,model_step
+model.MUT14.c,ORRN,73,44,73,46,==,73,44,73,46,>=,==>=,model_step
+model.MUT15.c,SSDL,73,51,80,4,{,73,51,73,52,{,,model_step
+model.MUT16.c,SSDL,74,5,74,47,rtDW.is_active_c3_sf_traffic_light_l = 1U,74,5,74,6,;,,model_step
+model.MUT17.c,SSDL,77,5,77,39,rtY.LightMode = LightModeType_Red,77,5,77,6,;,,model_step
+model.MUT18.c,SSDL,79,5,79,34,rtDW.temporalCounter_i1 = 0U,79,5,79,6,;,,model_step
+model.MUT19.c,SSDL,81,5,128,6,switch (rtY.LightMode) {,81,5,81,6,;,,model_step
+model.MUT20.c,SSDL,83,7,87,8,if ((rtDW.temporalCounter_i1 >= 14U) || ((rtDW.temporalCounter_i1 >= 12U) && rtDW.greenLightRequested)) {,83,7,83,8,;,,model_step
+model.MUT21.c,ORRN,83,36,83,38,>=,83,36,83,38,!=,>=!=,model_step
+model.MUT22.c,ORRN,83,36,83,38,>=,83,36,83,37,<,>=<,model_step
+model.MUT23.c,ORRN,83,36,83,38,>=,83,36,83,38,<=,>=<=,model_step
+model.MUT24.c,ORRN,83,36,83,38,>=,83,36,83,38,==,>===,model_step
+model.MUT25.c,ORRN,83,36,83,38,>=,83,36,83,37,>,>=>,model_step
+model.MUT26.c,OLLN,83,44,83,46,||,83,44,83,46,&&,||&&,model_step
+model.MUT27.c,ORRN,83,73,83,75,>=,83,73,83,75,!=,>=!=,model_step
+model.MUT28.c,ORRN,83,73,83,75,>=,83,73,83,74,<,>=<,model_step
+model.MUT29.c,ORRN,83,73,83,75,>=,83,73,83,75,<=,>=<=,model_step
+model.MUT30.c,ORRN,83,73,83,75,>=,83,73,83,75,==,>===,model_step
+model.MUT31.c,ORRN,83,73,83,75,>=,83,73,83,74,>,>=>,model_step
+model.MUT32.c,OLLN,83,81,83,83,&&,83,81,83,83,||,&&||,model_step
+model.MUT33.c,SSDL,84,39,87,8,{,84,39,84,40,{,,model_step
+model.MUT34.c,SSDL,85,9,85,46,rtY.LightMode = LightModeType_Yellow,85,9,85,10,;,,model_step
+model.MUT35.c,SSDL,86,9,86,38,rtDW.temporalCounter_i1 = 0U,86,9,86,10,;,,model_step
+model.MUT36.c,SSDL,88,7,88,13,break;,88,7,88,8,;,,model_step
+model.MUT37.c,SSDL,91,7,96,8,if (rtDW.temporalCounter_i1 >= 9U) {,91,7,91,8,;,,model_step
+model.MUT38.c,ORRN,91,35,91,37,>=,91,35,91,37,!=,>=!=,model_step
+model.MUT39.c,ORRN,91,35,91,37,>=,91,35,91,36,<,>=<,model_step
+model.MUT40.c,ORRN,91,35,91,37,>=,91,35,91,37,<=,>=<=,model_step
+model.MUT41.c,ORRN,91,35,91,37,>=,91,35,91,37,==,>===,model_step
+model.MUT42.c,ORRN,91,35,91,37,>=,91,35,91,36,>,>=>,model_step
+model.MUT43.c,SSDL,91,42,96,8,{,91,42,91,43,{,,model_step
+model.MUT44.c,SSDL,93,9,93,43,rtY.LightMode = LightModeType_Red,93,9,93,10,;,,model_step
+model.MUT45.c,SSDL,95,9,95,38,rtDW.temporalCounter_i1 = 0U,95,9,95,10,;,,model_step
+model.MUT46.c,SSDL,97,7,97,13,break;,97,7,97,8,;,,model_step
+model.MUT47.c,SSDL,100,7,126,8,switch (rtDW.is_Red) {,100,7,100,8,;,,model_step
+model.MUT48.c,SSDL,102,9,105,10,if (rtDW.temporalCounter_i1 >= 4U) {,102,9,102,10,;,,model_step
+model.MUT49.c,ORRN,102,37,102,39,>=,102,37,102,39,!=,>=!=,model_step
+model.MUT50.c,ORRN,102,37,102,39,>=,102,37,102,38,<,>=<,model_step
+model.MUT51.c,ORRN,102,37,102,39,>=,102,37,102,39,<=,>=<=,model_step
+model.MUT52.c,ORRN,102,37,102,39,>=,102,37,102,39,==,>===,model_step
+model.MUT53.c,ORRN,102,37,102,39,>=,102,37,102,38,>,>=>,model_step
+model.MUT54.c,SSDL,102,44,105,10,{,102,44,102,45,{,,model_step
+model.MUT55.c,SSDL,104,11,104,40,rtDW.temporalCounter_i1 = 0U,104,11,104,12,;,,model_step
+model.MUT56.c,SSDL,106,9,106,15,break;,106,9,106,10,;,,model_step
+model.MUT57.c,SSDL,109,9,112,10,if ((rtU.numCars > 0) || (rtDW.temporalCounter_i1 >= 20U)) {,109,9,109,10,;,,model_step
+model.MUT58.c,ORRN,109,26,109,27,>,109,26,109,28,!=,>!=,model_step
+model.MUT59.c,ORRN,109,26,109,27,>,109,26,109,27,<,><,model_step
+model.MUT60.c,ORRN,109,26,109,27,>,109,26,109,28,<=,><=,model_step
+model.MUT61.c,ORRN,109,26,109,27,>,109,26,109,28,==,>==,model_step
+model.MUT62.c,ORRN,109,26,109,27,>,109,26,109,28,>=,>>=,model_step
+model.MUT63.c,OLLN,109,31,109,33,||,109,31,109,33,&&,||&&,model_step
+model.MUT64.c,ORRN,109,59,109,61,>=,109,59,109,61,!=,>=!=,model_step
+model.MUT65.c,ORRN,109,59,109,61,>=,109,59,109,60,<,>=<,model_step
+model.MUT66.c,ORRN,109,59,109,61,>=,109,59,109,61,<=,>=<=,model_step
+model.MUT67.c,ORRN,109,59,109,61,>=,109,59,109,61,==,>===,model_step
+model.MUT68.c,ORRN,109,59,109,61,>=,109,59,109,60,>,>=>,model_step
+model.MUT69.c,SSDL,109,68,112,10,{,109,68,109,69,{,,model_step
+model.MUT70.c,SSDL,111,11,111,40,rtDW.temporalCounter_i1 = 0U,111,11,111,12,;,,model_step
+model.MUT71.c,SSDL,113,9,113,15,break;,113,9,113,10,;,,model_step
+model.MUT72.c,SSDL,116,9,124,10,if ((!rtDW.greenLightLocked) && (rtDW.temporalCounter_i1 >= 4U)) {,116,9,116,10,;,,model_step
+model.MUT73.c,OLLN,116,38,116,40,&&,116,38,116,40,||,&&||,model_step
+model.MUT74.c,ORRN,116,66,116,68,>=,116,66,116,68,!=,>=!=,model_step
+model.MUT75.c,ORRN,116,66,116,68,>=,116,66,116,67,<,>=<,model_step
+model.MUT76.c,ORRN,116,66,116,68,>=,116,66,116,68,<=,>=<=,model_step
+model.MUT77.c,ORRN,116,66,116,68,>=,116,66,116,68,==,>===,model_step
+model.MUT78.c,ORRN,116,66,116,68,>=,116,66,116,67,>,>=>,model_step
+model.MUT79.c,SSDL,116,74,122,10,{,116,74,116,75,{,,model_step
+model.MUT80.c,SSDL,118,11,118,47,rtY.LightMode = LightModeType_Green,118,11,118,12,;,,model_step
+model.MUT81.c,SSDL,119,11,119,40,rtDW.temporalCounter_i1 = 0U,119,11,119,12,;,,model_step
+model.MUT82.c,SSDL,125,9,125,15,break;,125,9,125,10,;,,model_step
+model.MUT83.c,SSDL,127,7,127,13,break;,127,7,127,8,;,,model_step
+model.MUT84.c,SSDL,140,3,140,38,rtY.LightMode = LightModeType_None,140,3,140,4,;,,model_initialize
+model.MUT85.c,SSDL,145,3,145,38,rtY.LightMode = LightModeType_None,145,3,145,4,;,,model_initialize
+model.MUT86.c,SSDL,148,3,148,44,rtDW.is_active_c3_sf_traffic_light_l = 0,148,3,148,4,;,,model_initialize
+model.MUT87.c,SSDL,149,3,149,19,rtDW.is_Red = 0,149,3,149,4,;,,model_initialize
+model.MUT88.c,SSDL,150,3,150,31,rtDW.temporalCounter_i1 = 0,150,3,150,4,;,,model_initialize
+model.MUT1V.c,VSCR,57,67,57,73,is_Red,57,67,57,76,temporalCounter_i1,,model_step
+model.MUT2V.c,VSCR,57,67,57,73,is_Red,57,67,57,76,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT3V.c,VSCR,57,67,57,73,is_Red,57,67,57,76,greenLightLocked,,model_step
+model.MUT4V.c,VSCR,57,67,57,73,is_Red,57,67,57,76,greenLightRequested,,model_step
+model.MUT5V.c,VSCR,59,19,59,35,greenLightLocked,59,19,59,37,temporalCounter_i1,,model_step
+model.MUT6V.c,VSCR,59,19,59,35,greenLightLocked,59,19,59,37,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT7V.c,VSCR,59,19,59,35,greenLightLocked,59,19,59,25,is_Red,,model_step
+model.MUT8V.c,VSCR,59,19,59,35,greenLightLocked,59,19,59,37,greenLightRequested,,model_step
+model.MUT9V.c,VSCR,60,19,60,38,greenLightRequested,60,19,60,37,temporalCounter_i1,,model_step
+model.MUT10V.c,VSCR,60,19,60,38,greenLightRequested,60,19,60,40,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT11V.c,VSCR,60,19,60,38,greenLightRequested,60,19,60,25,is_Red,,model_step
+model.MUT12V.c,VSCR,60,19,60,38,greenLightRequested,60,19,60,35,greenLightLocked,,model_step
+model.MUT13V.c,VSCR,61,10,61,28,temporalCounter_i1,61,10,61,30,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT14V.c,VSCR,61,10,61,28,temporalCounter_i1,61,10,61,16,is_Red,,model_step
+model.MUT15V.c,VSCR,61,10,61,28,temporalCounter_i1,61,10,61,26,greenLightLocked,,model_step
+model.MUT16V.c,VSCR,61,10,61,28,temporalCounter_i1,61,10,61,29,greenLightRequested,,model_step
+model.MUT17V.c,VSCR,69,12,69,30,temporalCounter_i1,69,12,69,43,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT18V.c,VSCR,69,12,69,30,temporalCounter_i1,69,12,69,18,is_Red,,model_step
+model.MUT19V.c,VSCR,69,12,69,30,temporalCounter_i1,69,12,69,28,greenLightLocked,,model_step
+model.MUT20V.c,VSCR,69,12,69,30,temporalCounter_i1,69,12,69,31,greenLightRequested,,model_step
+model.MUT21V.c,VSCR,70,10,70,28,temporalCounter_i1,70,10,70,31,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT22V.c,VSCR,70,10,70,28,temporalCounter_i1,70,10,70,16,is_Red,,model_step
+model.MUT23V.c,VSCR,70,10,70,28,temporalCounter_i1,70,10,70,26,greenLightLocked,,model_step
+model.MUT24V.c,VSCR,70,10,70,28,temporalCounter_i1,70,10,70,29,greenLightRequested,,model_step
+model.MUT25V.c,VSCR,73,12,73,43,is_active_c3_sf_traffic_light_l,73,12,73,30,temporalCounter_i1,,model_step
+model.MUT26V.c,VSCR,73,12,73,43,is_active_c3_sf_traffic_light_l,73,12,73,18,is_Red,,model_step
+model.MUT27V.c,VSCR,73,12,73,43,is_active_c3_sf_traffic_light_l,73,12,73,28,greenLightLocked,,model_step
+model.MUT28V.c,VSCR,73,12,73,43,is_active_c3_sf_traffic_light_l,73,12,73,31,greenLightRequested,,model_step
+model.MUT29V.c,VSCR,74,10,74,41,is_active_c3_sf_traffic_light_l,74,10,74,28,temporalCounter_i1,,model_step
+model.MUT30V.c,VSCR,74,10,74,41,is_active_c3_sf_traffic_light_l,74,10,74,16,is_Red,,model_step
+model.MUT31V.c,VSCR,74,10,74,41,is_active_c3_sf_traffic_light_l,74,10,74,26,greenLightLocked,,model_step
+model.MUT32V.c,VSCR,74,10,74,41,is_active_c3_sf_traffic_light_l,74,10,74,29,greenLightRequested,,model_step
+model.MUT33V.c,VSCR,78,10,78,16,is_Red,78,10,78,28,temporalCounter_i1,,model_step
+model.MUT34V.c,VSCR,78,10,78,16,is_Red,78,10,78,33,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT35V.c,VSCR,78,10,78,16,is_Red,78,10,78,26,greenLightLocked,,model_step
+model.MUT36V.c,VSCR,78,10,78,16,is_Red,78,10,78,29,greenLightRequested,,model_step
+model.MUT37V.c,VSCR,79,10,79,28,temporalCounter_i1,79,10,79,34,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT38V.c,VSCR,79,10,79,28,temporalCounter_i1,79,10,79,16,is_Red,,model_step
+model.MUT39V.c,VSCR,79,10,79,28,temporalCounter_i1,79,10,79,26,greenLightLocked,,model_step
+model.MUT40V.c,VSCR,79,10,79,28,temporalCounter_i1,79,10,79,29,greenLightRequested,,model_step
+model.MUT41V.c,VSCR,83,17,83,35,temporalCounter_i1,83,17,83,48,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT42V.c,VSCR,83,17,83,35,temporalCounter_i1,83,17,83,23,is_Red,,model_step
+model.MUT43V.c,VSCR,83,17,83,35,temporalCounter_i1,83,17,83,33,greenLightLocked,,model_step
+model.MUT44V.c,VSCR,83,17,83,35,temporalCounter_i1,83,17,83,36,greenLightRequested,,model_step
+model.MUT45V.c,VSCR,83,54,83,72,temporalCounter_i1,83,54,83,83,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT46V.c,VSCR,83,54,83,72,temporalCounter_i1,83,54,83,60,is_Red,,model_step
+model.MUT47V.c,VSCR,83,54,83,72,temporalCounter_i1,83,54,83,70,greenLightLocked,,model_step
+model.MUT48V.c,VSCR,83,54,83,72,temporalCounter_i1,83,54,83,73,greenLightRequested,,model_step
+model.MUT49V.c,VSCR,84,17,84,36,greenLightRequested,84,17,84,35,temporalCounter_i1,,model_step
+model.MUT50V.c,VSCR,84,17,84,36,greenLightRequested,84,17,84,40,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT51V.c,VSCR,84,17,84,36,greenLightRequested,84,17,84,23,is_Red,,model_step
+model.MUT52V.c,VSCR,84,17,84,36,greenLightRequested,84,17,84,33,greenLightLocked,,model_step
+model.MUT53V.c,VSCR,86,14,86,32,temporalCounter_i1,86,14,86,38,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT54V.c,VSCR,86,14,86,32,temporalCounter_i1,86,14,86,20,is_Red,,model_step
+model.MUT55V.c,VSCR,86,14,86,32,temporalCounter_i1,86,14,86,30,greenLightLocked,,model_step
+model.MUT56V.c,VSCR,86,14,86,32,temporalCounter_i1,86,14,86,33,greenLightRequested,,model_step
+model.MUT57V.c,VSCR,91,16,91,34,temporalCounter_i1,91,16,91,43,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT58V.c,VSCR,91,16,91,34,temporalCounter_i1,91,16,91,22,is_Red,,model_step
+model.MUT59V.c,VSCR,91,16,91,34,temporalCounter_i1,91,16,91,32,greenLightLocked,,model_step
+model.MUT60V.c,VSCR,91,16,91,34,temporalCounter_i1,91,16,91,35,greenLightRequested,,model_step
+model.MUT61V.c,VSCR,92,14,92,30,greenLightLocked,92,14,92,32,temporalCounter_i1,,model_step
+model.MUT62V.c,VSCR,92,14,92,30,greenLightLocked,92,14,92,39,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT63V.c,VSCR,92,14,92,30,greenLightLocked,92,14,92,20,is_Red,,model_step
+model.MUT64V.c,VSCR,92,14,92,30,greenLightLocked,92,14,92,33,greenLightRequested,,model_step
+model.MUT65V.c,VSCR,94,14,94,20,is_Red,94,14,94,32,temporalCounter_i1,,model_step
+model.MUT66V.c,VSCR,94,14,94,20,is_Red,94,14,94,37,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT67V.c,VSCR,94,14,94,20,is_Red,94,14,94,30,greenLightLocked,,model_step
+model.MUT68V.c,VSCR,94,14,94,20,is_Red,94,14,94,33,greenLightRequested,,model_step
+model.MUT69V.c,VSCR,95,14,95,32,temporalCounter_i1,95,14,95,38,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT70V.c,VSCR,95,14,95,32,temporalCounter_i1,95,14,95,20,is_Red,,model_step
+model.MUT71V.c,VSCR,95,14,95,32,temporalCounter_i1,95,14,95,30,greenLightLocked,,model_step
+model.MUT72V.c,VSCR,95,14,95,32,temporalCounter_i1,95,14,95,33,greenLightRequested,,model_step
+model.MUT73V.c,VSCR,100,20,100,26,is_Red,100,20,100,29,temporalCounter_i1,,model_step
+model.MUT74V.c,VSCR,100,20,100,26,is_Red,100,20,100,29,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT75V.c,VSCR,100,20,100,26,is_Red,100,20,100,29,greenLightLocked,,model_step
+model.MUT76V.c,VSCR,100,20,100,26,is_Red,100,20,100,29,greenLightRequested,,model_step
+model.MUT77V.c,VSCR,102,18,102,36,temporalCounter_i1,102,18,102,45,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT78V.c,VSCR,102,18,102,36,temporalCounter_i1,102,18,102,24,is_Red,,model_step
+model.MUT79V.c,VSCR,102,18,102,36,temporalCounter_i1,102,18,102,34,greenLightLocked,,model_step
+model.MUT80V.c,VSCR,102,18,102,36,temporalCounter_i1,102,18,102,37,greenLightRequested,,model_step
+model.MUT81V.c,VSCR,103,16,103,22,is_Red,103,16,103,34,temporalCounter_i1,,model_step
+model.MUT82V.c,VSCR,103,16,103,22,is_Red,103,16,103,41,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT83V.c,VSCR,103,16,103,22,is_Red,103,16,103,32,greenLightLocked,,model_step
+model.MUT84V.c,VSCR,103,16,103,22,is_Red,103,16,103,35,greenLightRequested,,model_step
+model.MUT85V.c,VSCR,104,16,104,34,temporalCounter_i1,104,16,104,40,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT86V.c,VSCR,104,16,104,34,temporalCounter_i1,104,16,104,22,is_Red,,model_step
+model.MUT87V.c,VSCR,104,16,104,34,temporalCounter_i1,104,16,104,32,greenLightLocked,,model_step
+model.MUT88V.c,VSCR,104,16,104,34,temporalCounter_i1,104,16,104,35,greenLightRequested,,model_step
+model.MUT89V.c,VSCR,109,40,109,58,temporalCounter_i1,109,40,109,69,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT90V.c,VSCR,109,40,109,58,temporalCounter_i1,109,40,109,46,is_Red,,model_step
+model.MUT91V.c,VSCR,109,40,109,58,temporalCounter_i1,109,40,109,56,greenLightLocked,,model_step
+model.MUT92V.c,VSCR,109,40,109,58,temporalCounter_i1,109,40,109,59,greenLightRequested,,model_step
+model.MUT93V.c,VSCR,110,16,110,22,is_Red,110,16,110,34,temporalCounter_i1,,model_step
+model.MUT94V.c,VSCR,110,16,110,22,is_Red,110,16,110,47,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT95V.c,VSCR,110,16,110,22,is_Red,110,16,110,32,greenLightLocked,,model_step
+model.MUT96V.c,VSCR,110,16,110,22,is_Red,110,16,110,35,greenLightRequested,,model_step
+model.MUT97V.c,VSCR,111,16,111,34,temporalCounter_i1,111,16,111,40,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT98V.c,VSCR,111,16,111,34,temporalCounter_i1,111,16,111,22,is_Red,,model_step
+model.MUT99V.c,VSCR,111,16,111,34,temporalCounter_i1,111,16,111,32,greenLightLocked,,model_step
+model.MUT100V.c,VSCR,111,16,111,34,temporalCounter_i1,111,16,111,35,greenLightRequested,,model_step
+model.MUT101V.c,VSCR,116,20,116,36,greenLightLocked,116,20,116,38,temporalCounter_i1,,model_step
+model.MUT102V.c,VSCR,116,20,116,36,greenLightLocked,116,20,116,51,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT103V.c,VSCR,116,20,116,36,greenLightLocked,116,20,116,26,is_Red,,model_step
+model.MUT104V.c,VSCR,116,20,116,36,greenLightLocked,116,20,116,39,greenLightRequested,,model_step
+model.MUT105V.c,VSCR,116,47,116,65,temporalCounter_i1,116,47,116,75,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT106V.c,VSCR,116,47,116,65,temporalCounter_i1,116,47,116,53,is_Red,,model_step
+model.MUT107V.c,VSCR,116,47,116,65,temporalCounter_i1,116,47,116,63,greenLightLocked,,model_step
+model.MUT108V.c,VSCR,116,47,116,65,temporalCounter_i1,116,47,116,66,greenLightRequested,,model_step
+model.MUT109V.c,VSCR,117,16,117,22,is_Red,117,16,117,34,temporalCounter_i1,,model_step
+model.MUT110V.c,VSCR,117,16,117,22,is_Red,117,16,117,44,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT111V.c,VSCR,117,16,117,22,is_Red,117,16,117,32,greenLightLocked,,model_step
+model.MUT112V.c,VSCR,117,16,117,22,is_Red,117,16,117,35,greenLightRequested,,model_step
+model.MUT113V.c,VSCR,119,16,119,34,temporalCounter_i1,119,16,119,40,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT114V.c,VSCR,119,16,119,34,temporalCounter_i1,119,16,119,22,is_Red,,model_step
+model.MUT115V.c,VSCR,119,16,119,34,temporalCounter_i1,119,16,119,32,greenLightLocked,,model_step
+model.MUT116V.c,VSCR,119,16,119,34,temporalCounter_i1,119,16,119,35,greenLightRequested,,model_step
+model.MUT117V.c,VSCR,120,16,120,32,greenLightLocked,120,16,120,34,temporalCounter_i1,,model_step
+model.MUT118V.c,VSCR,120,16,120,32,greenLightLocked,120,16,120,40,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT119V.c,VSCR,120,16,120,32,greenLightLocked,120,16,120,22,is_Red,,model_step
+model.MUT120V.c,VSCR,120,16,120,32,greenLightLocked,120,16,120,35,greenLightRequested,,model_step
+model.MUT121V.c,VSCR,121,16,121,35,greenLightRequested,121,16,121,34,temporalCounter_i1,,model_step
+model.MUT122V.c,VSCR,121,16,121,35,greenLightRequested,121,16,121,44,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT123V.c,VSCR,121,16,121,35,greenLightRequested,121,16,121,22,is_Red,,model_step
+model.MUT124V.c,VSCR,121,16,121,35,greenLightRequested,121,16,121,32,greenLightLocked,,model_step
+model.MUT125V.c,VSCR,123,16,123,35,greenLightRequested,123,16,123,34,temporalCounter_i1,,model_step
+model.MUT126V.c,VSCR,123,16,123,35,greenLightRequested,123,16,123,43,is_active_c3_sf_traffic_light_l,,model_step
+model.MUT127V.c,VSCR,123,16,123,35,greenLightRequested,123,16,123,22,is_Red,,model_step
+model.MUT128V.c,VSCR,123,16,123,35,greenLightRequested,123,16,123,32,greenLightLocked,,model_step
+model.MUT129V.c,VSCR,148,8,148,39,is_active_c3_sf_traffic_light_l,148,8,148,26,temporalCounter_i1,,model_initialize
+model.MUT130V.c,VSCR,148,8,148,39,is_active_c3_sf_traffic_light_l,148,8,148,14,is_Red,,model_initialize
+model.MUT131V.c,VSCR,148,8,148,39,is_active_c3_sf_traffic_light_l,148,8,148,24,greenLightLocked,,model_initialize
+model.MUT132V.c,VSCR,148,8,148,39,is_active_c3_sf_traffic_light_l,148,8,148,27,greenLightRequested,,model_initialize
+model.MUT133V.c,VSCR,149,8,149,14,is_Red,149,8,149,19,temporalCounter_i1,,model_initialize
+model.MUT134V.c,VSCR,149,8,149,14,is_Red,149,8,149,19,is_active_c3_sf_traffic_light_l,,model_initialize
+model.MUT135V.c,VSCR,149,8,149,14,is_Red,149,8,149,19,greenLightLocked,,model_initialize
+model.MUT136V.c,VSCR,149,8,149,14,is_Red,149,8,149,19,greenLightRequested,,model_initialize
+model.MUT137V.c,VSCR,150,8,150,26,temporalCounter_i1,150,8,150,31,is_active_c3_sf_traffic_light_l,,model_initialize
+model.MUT138V.c,VSCR,150,8,150,26,temporalCounter_i1,150,8,150,14,is_Red,,model_initialize
+model.MUT139V.c,VSCR,150,8,150,26,temporalCounter_i1,150,8,150,24,greenLightLocked,,model_initialize
+model.MUT140V.c,VSCR,150,8,150,26,temporalCounter_i1,150,8,150,27,greenLightRequested,,model_initialize

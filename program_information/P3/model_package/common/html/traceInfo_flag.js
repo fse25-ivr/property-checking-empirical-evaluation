@@ -1,0 +1,56 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["Controller.c:50c31"]=1;
+    this.traceFlag["Controller.c:51c28"]=1;
+    this.traceFlag["Controller.c:54c44"]=1;
+    this.traceFlag["Controller.c:64c36"]=1;
+    this.traceFlag["Controller.c:64c72"]=1;
+    this.traceFlag["Controller.c:72c35"]=1;
+    this.traceFlag["Controller.c:83c37"]=1;
+    this.traceFlag["Controller.c:90c26"]=1;
+    this.traceFlag["Controller.c:90c31"]=1;
+    this.traceFlag["Controller.c:90c59"]=1;
+    this.traceFlag["Controller.c:97c14"]=1;
+    this.traceFlag["Controller.c:97c66"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["Controller.c:50"]=1;
+    this.lineTraceFlag["Controller.c:51"]=1;
+    this.lineTraceFlag["Controller.c:54"]=1;
+    this.lineTraceFlag["Controller.c:55"]=1;
+    this.lineTraceFlag["Controller.c:58"]=1;
+    this.lineTraceFlag["Controller.c:59"]=1;
+    this.lineTraceFlag["Controller.c:60"]=1;
+    this.lineTraceFlag["Controller.c:62"]=1;
+    this.lineTraceFlag["Controller.c:63"]=1;
+    this.lineTraceFlag["Controller.c:64"]=1;
+    this.lineTraceFlag["Controller.c:65"]=1;
+    this.lineTraceFlag["Controller.c:66"]=1;
+    this.lineTraceFlag["Controller.c:67"]=1;
+    this.lineTraceFlag["Controller.c:71"]=1;
+    this.lineTraceFlag["Controller.c:72"]=1;
+    this.lineTraceFlag["Controller.c:73"]=1;
+    this.lineTraceFlag["Controller.c:74"]=1;
+    this.lineTraceFlag["Controller.c:75"]=1;
+    this.lineTraceFlag["Controller.c:76"]=1;
+    this.lineTraceFlag["Controller.c:81"]=1;
+    this.lineTraceFlag["Controller.c:82"]=1;
+    this.lineTraceFlag["Controller.c:83"]=1;
+    this.lineTraceFlag["Controller.c:84"]=1;
+    this.lineTraceFlag["Controller.c:85"]=1;
+    this.lineTraceFlag["Controller.c:89"]=1;
+    this.lineTraceFlag["Controller.c:90"]=1;
+    this.lineTraceFlag["Controller.c:91"]=1;
+    this.lineTraceFlag["Controller.c:92"]=1;
+    this.lineTraceFlag["Controller.c:97"]=1;
+    this.lineTraceFlag["Controller.c:98"]=1;
+    this.lineTraceFlag["Controller.c:99"]=1;
+    this.lineTraceFlag["Controller.c:100"]=1;
+    this.lineTraceFlag["Controller.c:101"]=1;
+    this.lineTraceFlag["Controller.c:102"]=1;
+    this.lineTraceFlag["Controller.c:104"]=1;
+    this.lineTraceFlag["Controller.c:126"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();

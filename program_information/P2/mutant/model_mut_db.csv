@@ -1,0 +1,39 @@
+,,,Before Mutation,,,,,After Mutation
+Mutant Filename,Mutation Operator,Start Line#,Start Col#,End Line#,End Col#,Target Token,Start Line#,Start Col#,End Line#,End Col#,Mutated Token,Extra Info
+model.MUT1.c,SSDL,47,3,47,60,printf("%s %d\n",47,3,47,4,;,,model_step
+model.MUT2.c,SSDL,57,3,110,4,if (rtDW.is_active_c1_model == 0U) {,57,3,57,4,;,,model_step
+model.MUT3.c,ORRN,57,31,57,33,==,57,31,57,33,!=,==!=,model_step
+model.MUT4.c,ORRN,57,31,57,33,==,57,31,57,32,<,==<,model_step
+model.MUT5.c,ORRN,57,31,57,33,==,57,31,57,33,<=,==<=,model_step
+model.MUT6.c,ORRN,57,31,57,33,==,57,31,57,32,>,==>,model_step
+model.MUT7.c,ORRN,57,31,57,33,==,57,31,57,33,>=,==>=,model_step
+model.MUT8.c,SSDL,57,38,60,4,{,57,38,57,39,{,,model_step
+model.MUT9.c,SSDL,58,5,58,34,rtDW.is_active_c1_model = 1U,58,5,58,6,;,,model_step
+model.MUT10.c,SSDL,61,5,109,6,switch (rtDW.is_c1_model) {,61,5,61,6,;,,model_step
+model.MUT11.c,SSDL,63,7,75,8,switch (rtU.coin) {,63,7,63,8,;,,model_step
+model.MUT12.c,SSDL,68,9,68,15,break;,68,9,68,10,;,,model_step
+model.MUT13.c,SSDL,74,9,74,15,break;,74,9,74,10,;,,model_step
+model.MUT14.c,SSDL,76,7,76,13,break;,76,7,76,8,;,,model_step
+model.MUT15.c,SSDL,79,7,91,8,switch (rtU.coin) {,79,7,79,8,;,,model_step
+model.MUT16.c,SSDL,84,9,84,15,break;,84,9,84,10,;,,model_step
+model.MUT17.c,SSDL,90,9,90,15,break;,90,9,90,10,;,,model_step
+model.MUT18.c,SSDL,92,7,92,13,break;,92,7,92,8,;,,model_step
+model.MUT19.c,SSDL,95,7,107,8,switch (rtU.coin) {,95,7,95,8,;,,model_step
+model.MUT20.c,SSDL,100,9,100,15,break;,100,9,100,10,;,,model_step
+model.MUT21.c,SSDL,106,9,106,15,break;,106,9,106,10,;,,model_step
+model.MUT22.c,SSDL,108,7,108,13,break;,108,7,108,8,;,,model_step
+model.MUT23.c,SSDL,118,3,118,31,rtDW.is_active_c1_model = 0,118,3,118,4,;,,model_initialize
+model.MUT24.c,SSDL,119,3,119,24,rtDW.is_c1_model = 0,119,3,119,4,;,,model_initialize
+model.MUT1V.c,VSCR,47,36,47,47,is_c1_model,47,36,47,54,is_active_c1_model,,model_step
+model.MUT2V.c,VSCR,57,12,57,30,is_active_c1_model,57,12,57,23,is_c1_model,,model_step
+model.MUT3V.c,VSCR,58,10,58,28,is_active_c1_model,58,10,58,21,is_c1_model,,model_step
+model.MUT4V.c,VSCR,59,10,59,21,is_c1_model,59,10,59,28,is_active_c1_model,,model_step
+model.MUT5V.c,VSCR,61,18,61,29,is_c1_model,61,18,61,32,is_active_c1_model,,model_step
+model.MUT6V.c,VSCR,67,14,67,25,is_c1_model,67,14,67,32,is_active_c1_model,,model_step
+model.MUT7V.c,VSCR,73,14,73,25,is_c1_model,73,14,73,32,is_active_c1_model,,model_step
+model.MUT8V.c,VSCR,83,14,83,25,is_c1_model,83,14,83,32,is_active_c1_model,,model_step
+model.MUT9V.c,VSCR,89,14,89,25,is_c1_model,89,14,89,32,is_active_c1_model,,model_step
+model.MUT10V.c,VSCR,99,14,99,25,is_c1_model,99,14,99,32,is_active_c1_model,,model_step
+model.MUT11V.c,VSCR,105,14,105,25,is_c1_model,105,14,105,32,is_active_c1_model,,model_step
+model.MUT12V.c,VSCR,118,8,118,26,is_active_c1_model,118,8,118,19,is_c1_model,,model_initialize
+model.MUT13V.c,VSCR,119,8,119,19,is_c1_model,119,8,119,24,is_active_c1_model,,model_initialize

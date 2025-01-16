@@ -1,0 +1,37 @@
+function RTW_rtwnameSIDMap() {
+	this.rtwnameHashMap = new Array();
+	this.sidHashMap = new Array();
+	this.rtwnameHashMap["<Root>"] = {sid: "model"};
+	this.sidHashMap["model"] = {rtwname: "<Root>"};
+	this.rtwnameHashMap["<S1>"] = {sid: "model:4"};
+	this.sidHashMap["model:4"] = {rtwname: "<S1>"};
+	this.rtwnameHashMap["<Root>/coin"] = {sid: "model:6"};
+	this.sidHashMap["model:6"] = {rtwname: "<Root>/coin"};
+	this.rtwnameHashMap["<Root>/Vending_Machine"] = {sid: "model:4"};
+	this.sidHashMap["model:4"] = {rtwname: "<Root>/Vending_Machine"};
+	this.rtwnameHashMap["<Root>/soda"] = {sid: "model:7"};
+	this.sidHashMap["model:7"] = {rtwname: "<Root>/soda"};
+	this.rtwnameHashMap["<S1>:1"] = {sid: "model:4:1"};
+	this.sidHashMap["model:4:1"] = {rtwname: "<S1>:1"};
+	this.rtwnameHashMap["<S1>:3"] = {sid: "model:4:3"};
+	this.sidHashMap["model:4:3"] = {rtwname: "<S1>:3"};
+	this.rtwnameHashMap["<S1>:2"] = {sid: "model:4:2"};
+	this.sidHashMap["model:4:2"] = {rtwname: "<S1>:2"};
+	this.rtwnameHashMap["<S1>:4"] = {sid: "model:4:4"};
+	this.sidHashMap["model:4:4"] = {rtwname: "<S1>:4"};
+	this.rtwnameHashMap["<S1>:5"] = {sid: "model:4:5"};
+	this.sidHashMap["model:4:5"] = {rtwname: "<S1>:5"};
+	this.rtwnameHashMap["<S1>:12"] = {sid: "model:4:12"};
+	this.sidHashMap["model:4:12"] = {rtwname: "<S1>:12"};
+	this.rtwnameHashMap["<S1>:7"] = {sid: "model:4:7"};
+	this.sidHashMap["model:4:7"] = {rtwname: "<S1>:7"};
+	this.rtwnameHashMap["<S1>:6"] = {sid: "model:4:6"};
+	this.sidHashMap["model:4:6"] = {rtwname: "<S1>:6"};
+	this.rtwnameHashMap["<S1>:8"] = {sid: "model:4:8"};
+	this.sidHashMap["model:4:8"] = {rtwname: "<S1>:8"};
+	this.rtwnameHashMap["<S1>:9"] = {sid: "model:4:9"};
+	this.sidHashMap["model:4:9"] = {rtwname: "<S1>:9"};
+	this.getSID = function(rtwname) { return this.rtwnameHashMap[rtwname];}
+	this.getRtwname = function(sid) { return this.sidHashMap[sid];}
+}
+RTW_rtwnameSIDMap.instance = new RTW_rtwnameSIDMap();

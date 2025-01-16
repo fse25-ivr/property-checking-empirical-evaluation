@@ -1,0 +1,99 @@
+,,,Before Mutation,,,,,After Mutation
+Mutant Filename,Mutation Operator,Start Line#,Start Col#,End Line#,End Col#,Target Token,Start Line#,Start Col#,End Line#,End Col#,Mutated Token,Extra Info
+model.MUT1.c,SSDL,49,3,50,37,printf("%s %d %d\n",49,3,49,4,;,,model_step
+model.MUT2.c,SSDL,55,3,57,4,if (rtDW.temporalCounter_i1 < 15U) {,55,3,55,4,;,,model_step
+model.MUT3.c,ORRN,55,31,55,32,<,55,31,55,33,!=,<!=,model_step
+model.MUT4.c,ORRN,55,31,55,32,<,55,31,55,33,<=,<<=,model_step
+model.MUT5.c,ORRN,55,31,55,32,<,55,31,55,33,==,<==,model_step
+model.MUT6.c,ORRN,55,31,55,32,<,55,31,55,32,>,<>,model_step
+model.MUT7.c,ORRN,55,31,55,32,<,55,31,55,33,>=,<>=,model_step
+model.MUT8.c,SSDL,56,5,56,31,rtDW.temporalCounter_i1++,56,5,56,6,;,,model_step
+model.MUT9.c,SSDL,59,3,117,4,if (rtDW.is_active_c4_model == 0U) {,59,3,59,4,;,,model_step
+model.MUT10.c,ORRN,59,31,59,33,==,59,31,59,33,!=,==!=,model_step
+model.MUT11.c,ORRN,59,31,59,33,==,59,31,59,32,<,==<,model_step
+model.MUT12.c,ORRN,59,31,59,33,==,59,31,59,33,<=,==<=,model_step
+model.MUT13.c,ORRN,59,31,59,33,==,59,31,59,32,>,==>,model_step
+model.MUT14.c,ORRN,59,31,59,33,==,59,31,59,33,>=,==>=,model_step
+model.MUT15.c,SSDL,59,38,65,4,{,59,38,59,39,{,,model_step
+model.MUT16.c,SSDL,60,5,60,34,rtDW.is_active_c4_model = 1U,60,5,60,6,;,,model_step
+model.MUT17.c,SSDL,64,5,64,17,rtY.y = 1.,64,5,64,6,;,,model_step
+model.MUT18.c,SSDL,66,5,116,6,switch (rtDW.is_c4_model) {,66,5,66,6,;,,model_step
+model.MUT19.c,SSDL,69,7,69,19,rtY.y = 0.,69,7,69,8,;,,model_step
+model.MUT20.c,SSDL,70,7,73,8,if (rtU.u) {,70,7,70,8,;,,model_step
+model.MUT21.c,SSDL,70,18,73,8,{,70,18,70,19,{,,model_step
+model.MUT22.c,SSDL,72,9,72,38,rtDW.temporalCounter_i1 = 0U,72,9,72,10,;,,model_step
+model.MUT23.c,SSDL,74,7,74,13,break;,74,7,74,8,;,,model_step
+model.MUT24.c,SSDL,77,7,89,8,if (rtDW.temporalCounter_i1 >= 10U) {,77,7,77,8,;,,model_step
+model.MUT25.c,ORRN,77,35,77,37,>=,77,35,77,37,!=,>=!=,model_step
+model.MUT26.c,ORRN,77,35,77,37,>=,77,35,77,36,<,>=<,model_step
+model.MUT27.c,ORRN,77,35,77,37,>=,77,35,77,37,<=,>=<=,model_step
+model.MUT28.c,ORRN,77,35,77,37,>=,77,35,77,37,==,>===,model_step
+model.MUT29.c,ORRN,77,35,77,37,>=,77,35,77,36,>,>=>,model_step
+model.MUT30.c,SSDL,77,43,82,8,{,77,43,77,44,{,,model_step
+model.MUT31.c,SSDL,81,9,81,21,rtY.y = 1.,81,9,81,10,;,,model_step
+model.MUT32.c,SSDL,83,9,88,10,if (!rtU.u) {,83,9,83,10,;,,model_step
+model.MUT33.c,SSDL,83,21,88,10,{,83,21,83,22,{,,model_step
+model.MUT34.c,SSDL,87,11,87,23,rtY.y = 0.,87,11,87,12,;,,model_step
+model.MUT35.c,SSDL,90,7,90,13,break;,90,7,90,8,;,,model_step
+model.MUT36.c,SSDL,94,7,94,19,rtY.y = 1.,94,7,94,8,;,,model_step
+model.MUT37.c,SSDL,95,7,98,8,if (!rtU.u) {,95,7,95,8,;,,model_step
+model.MUT38.c,SSDL,95,19,98,8,{,95,19,95,20,{,,model_step
+model.MUT39.c,SSDL,97,9,97,38,rtDW.temporalCounter_i1 = 0U,97,9,97,10,;,,model_step
+model.MUT40.c,SSDL,99,7,99,13,break;,99,7,99,8,;,,model_step
+model.MUT41.c,SSDL,102,7,114,8,if (rtDW.temporalCounter_i1 >= 10U) {,102,7,102,8,;,,model_step
+model.MUT42.c,ORRN,102,35,102,37,>=,102,35,102,37,!=,>=!=,model_step
+model.MUT43.c,ORRN,102,35,102,37,>=,102,35,102,36,<,>=<,model_step
+model.MUT44.c,ORRN,102,35,102,37,>=,102,35,102,37,<=,>=<=,model_step
+model.MUT45.c,ORRN,102,35,102,37,>=,102,35,102,37,==,>===,model_step
+model.MUT46.c,ORRN,102,35,102,37,>=,102,35,102,36,>,>=>,model_step
+model.MUT47.c,SSDL,102,43,107,8,{,102,43,102,44,{,,model_step
+model.MUT48.c,SSDL,106,9,106,21,rtY.y = 0.,106,9,106,10,;,,model_step
+model.MUT49.c,SSDL,108,9,113,10,if (rtU.u) {,108,9,108,10,;,,model_step
+model.MUT50.c,SSDL,108,20,113,10,{,108,20,108,21,{,,model_step
+model.MUT51.c,SSDL,112,11,112,23,rtY.y = 1.,112,11,112,12,;,,model_step
+model.MUT52.c,SSDL,115,7,115,13,break;,115,7,115,8,;,,model_step
+model.MUT53.c,SSDL,127,3,127,31,rtDW.is_active_c4_model = 0,127,3,127,4,;,,model_initialize
+model.MUT54.c,SSDL,128,3,128,24,rtDW.is_c4_model = 0,128,3,128,4,;,,model_initialize
+model.MUT55.c,SSDL,129,3,129,31,rtDW.temporalCounter_i1 = 0,129,3,129,4,;,,model_initialize
+model.MUT1V.c,VSCR,49,39,49,50,is_c4_model,49,39,49,52,is_active_c4_model,,model_step
+model.MUT2V.c,VSCR,49,39,49,50,is_c4_model,49,39,49,52,temporalCounter_i1,,model_step
+model.MUT3V.c,VSCR,50,17,50,35,temporalCounter_i1,50,17,50,35,is_active_c4_model,,model_step
+model.MUT4V.c,VSCR,50,17,50,35,temporalCounter_i1,50,17,50,28,is_c4_model,,model_step
+model.MUT5V.c,VSCR,55,12,55,30,temporalCounter_i1,55,12,55,30,is_active_c4_model,,model_step
+model.MUT6V.c,VSCR,55,12,55,30,temporalCounter_i1,55,12,55,23,is_c4_model,,model_step
+model.MUT7V.c,VSCR,56,10,56,28,temporalCounter_i1,56,10,56,28,is_active_c4_model,,model_step
+model.MUT8V.c,VSCR,56,10,56,28,temporalCounter_i1,56,10,56,21,is_c4_model,,model_step
+model.MUT9V.c,VSCR,59,12,59,30,is_active_c4_model,59,12,59,23,is_c4_model,,model_step
+model.MUT10V.c,VSCR,59,12,59,30,is_active_c4_model,59,12,59,30,temporalCounter_i1,,model_step
+model.MUT11V.c,VSCR,60,10,60,28,is_active_c4_model,60,10,60,21,is_c4_model,,model_step
+model.MUT12V.c,VSCR,60,10,60,28,is_active_c4_model,60,10,60,28,temporalCounter_i1,,model_step
+model.MUT13V.c,VSCR,61,10,61,21,is_c4_model,61,10,61,28,is_active_c4_model,,model_step
+model.MUT14V.c,VSCR,61,10,61,21,is_c4_model,61,10,61,28,temporalCounter_i1,,model_step
+model.MUT15V.c,VSCR,66,18,66,29,is_c4_model,66,18,66,32,is_active_c4_model,,model_step
+model.MUT16V.c,VSCR,66,18,66,29,is_c4_model,66,18,66,32,temporalCounter_i1,,model_step
+model.MUT17V.c,VSCR,71,14,71,25,is_c4_model,71,14,71,32,is_active_c4_model,,model_step
+model.MUT18V.c,VSCR,71,14,71,25,is_c4_model,71,14,71,32,temporalCounter_i1,,model_step
+model.MUT19V.c,VSCR,72,14,72,32,temporalCounter_i1,72,14,72,32,is_active_c4_model,,model_step
+model.MUT20V.c,VSCR,72,14,72,32,temporalCounter_i1,72,14,72,25,is_c4_model,,model_step
+model.MUT21V.c,VSCR,77,16,77,34,temporalCounter_i1,77,16,77,34,is_active_c4_model,,model_step
+model.MUT22V.c,VSCR,77,16,77,34,temporalCounter_i1,77,16,77,27,is_c4_model,,model_step
+model.MUT23V.c,VSCR,78,14,78,25,is_c4_model,78,14,78,32,is_active_c4_model,,model_step
+model.MUT24V.c,VSCR,78,14,78,25,is_c4_model,78,14,78,32,temporalCounter_i1,,model_step
+model.MUT25V.c,VSCR,84,16,84,27,is_c4_model,84,16,84,34,is_active_c4_model,,model_step
+model.MUT26V.c,VSCR,84,16,84,27,is_c4_model,84,16,84,34,temporalCounter_i1,,model_step
+model.MUT27V.c,VSCR,96,14,96,25,is_c4_model,96,14,96,32,is_active_c4_model,,model_step
+model.MUT28V.c,VSCR,96,14,96,25,is_c4_model,96,14,96,32,temporalCounter_i1,,model_step
+model.MUT29V.c,VSCR,97,14,97,32,temporalCounter_i1,97,14,97,32,is_active_c4_model,,model_step
+model.MUT30V.c,VSCR,97,14,97,32,temporalCounter_i1,97,14,97,25,is_c4_model,,model_step
+model.MUT31V.c,VSCR,102,16,102,34,temporalCounter_i1,102,16,102,34,is_active_c4_model,,model_step
+model.MUT32V.c,VSCR,102,16,102,34,temporalCounter_i1,102,16,102,27,is_c4_model,,model_step
+model.MUT33V.c,VSCR,103,14,103,25,is_c4_model,103,14,103,32,is_active_c4_model,,model_step
+model.MUT34V.c,VSCR,103,14,103,25,is_c4_model,103,14,103,32,temporalCounter_i1,,model_step
+model.MUT35V.c,VSCR,109,16,109,27,is_c4_model,109,16,109,34,is_active_c4_model,,model_step
+model.MUT36V.c,VSCR,109,16,109,27,is_c4_model,109,16,109,34,temporalCounter_i1,,model_step
+model.MUT37V.c,VSCR,127,8,127,26,is_active_c4_model,127,8,127,19,is_c4_model,,model_initialize
+model.MUT38V.c,VSCR,127,8,127,26,is_active_c4_model,127,8,127,26,temporalCounter_i1,,model_initialize
+model.MUT39V.c,VSCR,128,8,128,19,is_c4_model,128,8,128,24,is_active_c4_model,,model_initialize
+model.MUT40V.c,VSCR,128,8,128,19,is_c4_model,128,8,128,24,temporalCounter_i1,,model_initialize
+model.MUT41V.c,VSCR,129,8,129,26,temporalCounter_i1,129,8,129,26,is_active_c4_model,,model_initialize
+model.MUT42V.c,VSCR,129,8,129,26,temporalCounter_i1,129,8,129,19,is_c4_model,,model_initialize
